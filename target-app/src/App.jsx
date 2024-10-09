@@ -5,6 +5,7 @@ import {
   Example2Page,
   Example3Page,
   Example4Page,
+  Challenge1Page,
   HomePage,
   NotFoundPage,
 } from './pages';
@@ -19,6 +20,7 @@ function App() {
         <Route path="/example-2" component={Example2Page} />
         <Route path="/example-3" component={Example3Page} />
         <Route path="/example-4" component={Example4Page} />
+        <Route path="/challenge-1" component={Challenge1Page} />
         <Route component={NotFoundPage} />
       </Switch>
     </Router>
