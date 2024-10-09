@@ -1,6 +1,6 @@
 describe('Max character input functionality', () => {
     it('displays the appropriate remaining characters count', () => {
-        cy.visit('http://localhost:5173/example-3');
+        cy.visit('/example-3');
 
         cy.get('span[data-cy=first-name-chars-left-count]').then(function($charsLeftSpan) {
             expect($charsLeftSpan.text()).to.equal('15');
