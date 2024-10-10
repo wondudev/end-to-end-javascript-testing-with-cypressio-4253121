@@ -1,3 +1,5 @@
+/// <reference types="Cypress" />
+
 describe('Max character input functionality', () => {
     it('displays the appropriate remaining characters count', () => {
       cy.visit('/example-2');
