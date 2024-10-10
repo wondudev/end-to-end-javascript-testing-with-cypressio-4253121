@@ -2,7 +2,7 @@ describe('Max character input functionality', () => {
     it('displays the appropriate remaining characters count', () => {
       cy.visit('/example-2');
       cy.get('span').invoke('text').should('equal', '15');
-      cy.get('input').type('Hello')
+      cy.get('input').type('Hello').debug();
       cy.get('span').invoke('text').should('equal', '10');
       cy.get('input').type('Hello')
       cy.get('span').invoke('text').should('equal', '5');
