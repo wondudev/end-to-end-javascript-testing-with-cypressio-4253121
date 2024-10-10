@@ -5,8 +5,14 @@ describe('basic page interactions', () => {
     });
 
     it('sets the header text to the item name when double clicked', () => {
-        cy.get('ul[data-cy=box-1-items-list] > li').eq(2).dblclick();
-        cy.get('span[data-cy=box-1-selected-name]').invoke('text').should('equal', 'Option Three');
+        cy.get('ul[data-cy=box-1-items-list] > li').eq(2).as('thirdItem');
+
+        cy.get('@thirdItem')
+            .click()
+            .should('have.css', 'background-color', 'rgb(221, 221, 221)')
+            .dblclick()
+            .invoke('text')
+            .should('equal', 'Option Three');
     })
 
     it('displays the correct number of checked options', () => {

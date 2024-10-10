@@ -3,7 +3,8 @@ describe('Max character input functionality', () => {
         cy.visit('/example-3');
 
         cy.get('span[data-cy=first-name-chars-left-count]').then(function($charsLeftSpan) {
-            expect($charsLeftSpan.text()).to.equal('15');
+            // expect($charsLeftSpan.text()).to.equal('15');
+            cy.wrap($charsLeftSpan).invoke('text').should('equal', '15');
         });
 
         cy.get('span[data-cy=first-name-chars-left-count]').invoke('text').as('fnCharsLeft');
