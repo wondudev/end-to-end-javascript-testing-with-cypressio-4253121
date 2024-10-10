@@ -77,6 +77,7 @@ export const Example4Page = () => {
                             selected={i === selectedItemIndex}
                         >{item}</ListItem>
                     ))}
+                    <ListItem className="extra-li">Extra!</ListItem>
                 </ul>
             </Box>
             <Box>

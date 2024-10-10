@@ -4,6 +4,11 @@ describe('basic page interactions', () => {
         cy.visit(e4Path);
     });
 
+    it('shows three options in box 1', () => {
+        // cy.get('ul[data-cy=box-1-items-list] > li').filter('.box-1-list-item').should('have.length', 3);
+        cy.get('ul[data-cy=box-1-items-list] > li').not('.extra-li').should('have.length', 3);
+    })
+
     it('sets the header text to the item name when double clicked', () => {
         cy.get('ul[data-cy=box-1-items-list] > li').eq(2).as('thirdItem');
 
