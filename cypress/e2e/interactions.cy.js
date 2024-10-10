@@ -1,6 +1,7 @@
 describe('basic page interactions', () => {
     beforeEach(() => {
-        cy.visit('/example-4');
+        const e4Path = Cypress.env('EXAMPLE_4_PATH');
+        cy.visit(e4Path);
     });
 
     it('sets the header text to the item name when double clicked', () => {
