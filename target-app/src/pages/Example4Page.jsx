@@ -58,7 +58,7 @@ export const Example4Page = () => {
     return (
         <Wrapper>
             <Box>
-                <Heading>.click() and .dblClick()</Heading>
+                <Heading>.click() and .dblclick()</Heading>
                 <p>Click to highlight, double click to select</p>
                 <p>Selected Item:
                     <span data-cy="box-1-selected-name">
