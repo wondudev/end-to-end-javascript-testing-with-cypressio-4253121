@@ -1,7 +1,11 @@
-# COURSENAME
-This is the repository for the LinkedIn Learning course `course-name`. The full course is available from [LinkedIn Learning][lil-course-url].
+# End-to-End JavaScript Testing with Cypress.io
+This is the repository for the LinkedIn Learning course `End-to-End JavaScript Testing with Cypress.io`. The full course is available from [LinkedIn Learning][lil-course-url].
 
 ![course-name-alt-text][lil-thumbnail-url] 
+
+## Course Description
+
+End-to-end testing is an incredibly powerful strategy. Essentially, it allows you to write programs that automatically interact with your web applications like a real user would. In this course, Shaun Wassell—a lifelong programmer and a Full-Stack Development Instructor—offers a comprehensive look at end-to-end testing using Cypress, which is one of the most popular and robust end-to-end testing tools available. Learn how to write and execute basic tests, and then move on to best practices for element selection, aliasing, and handling command results. Explore advanced Cypress features, such as hooks, environment variables, and test doubles, to create efficient and maintainable tests. By the end of the course, you will be prepared to perform real-world, end-to-end testing on any web application.
 
 _See the readme file in the main branch for updated instructions and information._
 ## Instructions
@@ -22,15 +26,18 @@ To resolve this issue:
     Add changes to git using this command: git add .
 	Commit changes using this command: git commit -m "some message"
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+## Instructor
+
+Shaun Wassell
+
+Senior Software Engineer, Educator at CBT Nuggets
+         
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/shaun-wassell?u=104).
+
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+[lil-course-url]: https://www.linkedin.com/learning/end-to-end-javascript-testing-with-cypress-io-23936013
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4D0DAQEwSS43LqkZMg/learning-public-crop_675_1200/learning-public-crop_675_1200/0/1732149411297?e=2147483647&v=beta&t=NIDnqTi_E4T7tK1aCMXFecm-Pf606qR71fG-Giv4Pbo
 
